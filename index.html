@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Website</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #063156;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background-color: #044D2A;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            background-color: #063156;
+            text-align: center;
+            color: white;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .hero .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(4, 77, 42, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero .overlay h1 {
+            font-size: 3rem;
+            padding: 1rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Section */
+        .section {
+            padding: 2rem 5%;
+            background: white;
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #044D2A;
+            margin-bottom: 1rem;
+        }
+
+        .section p {
+            text-align: center;
+            font-size: 1rem;
+            color: #063156;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background-color: #044D2A;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #f4f4f4;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Your tagline goes here</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="team-picture.jpg" alt="Team Picture Placeholder">
+        <div class="overlay">
+            <h1>Your Team Name or Slogan</h1>
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <section class="section">
+        <h2>About Us</h2>
+        <p>
+            Use this space to introduce your team or organization. Share your vision, mission, or a short summary about your goals.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </p>
+    </footer>
+</body>
+</html>
